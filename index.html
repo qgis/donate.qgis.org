@@ -313,7 +313,13 @@
                 <li class="toctree-l2"><a class="reference internal"
                     href="https://qgis.org/en/site/getinvolved/governance/sustaining_members/index.html">Sustaining
                     Membership Program</a></li>
-                <li class="toctree-l2 current"><a class="current reference internal" href="/">Donations</a></li>
+                <li class="toctree-l2 current"><a class="current reference internal" href="#">Donations</a>
+		  <ul class="nav nav-list">
+                    <li class="toctree-l3 current"><a class="reference internal" href="#a_bank">Bank transfer</a></li>
+                    <li class="toctree-l3"><a class="reference internal" href="#a_stripe">Stripe</a></li>
+                    <li class="toctree-l3"><a class="reference internal" href="#a_paypal">PayPal</a></li>
+                  </ul>
+                </li>
                 <li class="toctree-l2"><a class="reference internal"
                     href="https://qgis.org/en/site/getinvolved/certification.html">Certification</a></li>
                 <li class="toctree-l2"><a class="reference internal"
@@ -329,9 +335,6 @@
         </div>
       </div>
       <div class="span8">
-
-
-
         <div class="getinvolved" id="color-identifier"></div>
 
         <section class="sub-landing-page" id="top">
@@ -365,14 +368,17 @@
                     <h3>DONATE TO THE PROJECT</h3>
                   </header>
 
-                  <!--<ul id="subnav">
-                        <li>
-                            <a href="#bank">Bank Transfer</a>
-                        </li>
-                        <li>
-                            <a href="#paypal">Credit card and Paypal</a>
-                        </li>
-                    </ul>-->
+                  <ul id="subnav">
+                    <li>
+                      <a href="#a_bank">Bank Transfer</a>
+                    </li>
+                    <li>
+                      <a href="#a_stripe">Stripe</a>
+                    </li>
+                    <li>
+                      <a href="#a_paypal">PayPal</a>
+                    </li>
+                  </ul>
                 </nav>
               </div>
             </div>
@@ -388,6 +394,7 @@
               </div>
               <div class="span1"></div>
               <div class="span8">
+		<a id="a_bank"></a>
                 <h3>Bank Transfer</h3>
                 <p>Use the details below to make a donation via international money transfer:</p>
                 <p>
@@ -410,9 +417,10 @@ VAT-number:   CHE-489.853.176
             </div>
             <hr>
             <div class="row-fluid">
+	      <a id="a_stripe"></a>
               <h3>Stripe</h3>
               <p>We use the stripe.com service to receive credit card donations. Note that the payment fees at Stripe
-                are substantially lower than at Paypal - so we would appreciate it, if you could use Stripe instead of
+                are substantially lower than at PayPal - so we would appreciate it, if you could use Stripe instead of
                 PayPal. No signup needed.</p>
               <div id="stripe">
 
@@ -557,11 +565,12 @@ VAT-number:   CHE-489.853.176
             <hr>
             <div class="row-fluid" id="paypal">
               <div class="span8">
-                <h3>Paypal</h3>
-                <p>You can use Paypal to donate using your own credit card (but we prefer to use Stripe for that).
+                <a id="a_paypal"></a>
+                <h3>PayPal</h3>
+                <p>You can use PayPal to donate using your own credit card (but we prefer to use Stripe for that).
                   The payment is processed by PayPal but you don't need to have a PayPal account
                   or sign-up for one if you are paying by credit card.</p>
-                <p>You can also use your own Paypal account to donate.</p>
+                <p>You can also use your own PayPal account to donate.</p>
                 <!--<h4 class="subsection-link"><a href="../forusers/support.html">List of QGIS Support Channels</a></h4>-->
                 <div>
                   <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
